@@ -8,7 +8,7 @@
 			"type": "mod",
 			"version": "v2.0",
 			"name": "HungerRevamped",
-			"displayName": "Hunger Revamped v2.0",
+			"displayName": " Hunger Revamped",
 			"author": "JonAyling",
 			"previousAuthors": "zeobviouslyfakeacc",
 			"released": "2023-04-24",
@@ -33,6 +33,84 @@
 				"working": true,
 				"beta": false,
 				"patchnotes": "Update to make HungerRevamped compatible with the post-TFTFT release. Tested on latest game version 2.14.\n\nModifications are fairly limited:\n-    Updated assemblies and dependencies for newest version of MelonLoader and .NET 6\n-    Changed a few method calls to use updated APIs, particularly in Patches\n-    Largest change is bringing in ModData as a dependency as a simpler way to handle persistence in the new patch\n",
+				"notes": "",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "v2.14",
+				"mlversion": "v0.6.1"
+			},
+			"updater": {
+				"enable": true,
+				"downloads": []
+			},
+			"aliases": []
+		},
+		{
+			"type": "mod",
+			"version": "v2.0",
+			"name": "RememberBreakDownItem",
+			"displayName": "Remember Break Down Item",
+			"author": "JonAyling",
+			"previousAuthors": "zeobviouslyfakeacc",
+			"released": "2023-04-24",
+			"updated": "2023-04-24",
+			"downloadURL": "https://github.com/jonayling/RememberBreakDownItem/releases/download/v2.0/RememberBreakDownItem.dll",
+			"modURL": "https://github.com/jonayling/RememberBreakDownItem",
+			"description": "This mod remembers the tool you last used to break down objects such as branches or curtains to make the UI less annoying.",
+			"tags": "Tools",
+			"categories": [
+				"Quality of Life"
+			],
+			"gameversion": [
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [],
+			"status": {
+				"working": true,
+				"beta": false,
+				"patchnotes": "Simple update to make Remember Breakdown Item compatible with the post-TFTFT release. \nUpdated assemblies and dependencies for newest version of MelonLoader and .NET 6\n",
+				"notes": "",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "v2.14",
+				"mlversion": "v0.6.1"
+			},
+			"updater": {
+				"enable": true,
+				"downloads": []
+			},
+			"aliases": []
+		},
+		{
+			"type": "mod",
+			"version": "v5.0",
+			"name": "Better-Night-Sky",
+			"displayName": "Better Night Sky",
+			"author": "JonAyling",
+			"previousAuthors": "Wulf Marius, ds5678",
+			"released": "2023-04-24",
+			"updated": "2023-04-24",
+			"downloadURL": "https://github.com/jonayling/Better-Night-Sky/releases/download/v5.0/Better-Night-Sky.dll",
+			"modURL": "https://github.com/jonayling/Better-Night-Sky",
+			"description": "Makes the night sky more realistic.",
+			"tags": "Night, Moon, Sky",
+			"categories": [
+				"Graphics"
+			],
+			"gameversion": [
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [
+				"ModSettings"
+			],
+			"status": {
+				"working": true,
+				"beta": false,
+				"patchnotes": "Update to make Better-Night-Sky compatible with the post-TFTFT release. Tested on latest game version 2.14.\n\n- Updated assemblies and dependencies for newest version of MelonLoader and .NET 6\n- Minimal API changes required for base library compatibility\n",
 				"notes": "",
 				"issues": ""
 			},
