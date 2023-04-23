@@ -1,0 +1,50 @@
+{
+	"version": "2",
+	"author": "JonAyling",
+	"authorURL": "https://github.com/jonayling",
+	"supportURL": "",
+	"mods": [
+		{
+			"type": "mod",
+			"version": "v2.0",
+			"name": "HungerRevamped",
+			"displayName": "Hunger Revamped v2.0",
+			"author": "JonAyling",
+			"previousAuthors": "zeobviouslyfakeacc",
+			"released": "2023-04-24",
+			"updated": "2023-04-24",
+			"downloadURL": "https://github.com/jonayling/HungerRevamped/releases/download/v2.0/HungerRevamped.dll",
+			"modURL": "https://github.com/jonayling/HungerRevamped",
+			"description": "Improves the hunger system by separating hunger and stored calories.",
+			"tags": "Calories, Hunger",
+			"categories": [
+				"Gameplay",
+				"Overhaul"
+			],
+			"gameversion": [
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [
+				"ModSettings",
+				"ModData"
+			],
+			"status": {
+				"working": true,
+				"beta": false,
+				"patchnotes": "Update to make HungerRevamped compatible with the post-TFTFT release. Tested on latest game version 2.14.\n\nModifications are fairly limited:\n-    Updated assemblies and dependencies for newest version of MelonLoader and .NET 6\n-    Changed a few method calls to use updated APIs, particularly in Patches\n-    Largest change is bringing in ModData as a dependency as a simpler way to handle persistence in the new patch\n",
+				"notes": "",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "v2.14",
+				"mlversion": "v0.6.1"
+			},
+			"updater": {
+				"enable": true,
+				"downloads": []
+			},
+			"aliases": []
+		}
+	]
+}
